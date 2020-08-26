@@ -23,5 +23,7 @@ psst!... its just a image labeler for manually sorting images to different categ
 ### usage:
 <code> python modeldotpredict.py --directory &lt;path&gt; --labels &lt;label1&gt; &lt;label2&gt; &lt;labeln&gt; --extensions &lt;.jpg&gt; &lt;.png&gt; <code>
 
+use numpad for faster labelling.
+
 ### Requirements:
 Pillow==7.2.0 and python❤️️ 
