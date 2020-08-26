@@ -4,7 +4,16 @@
 - human-level accuray(better than your latest papers)
 - no bs
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 psst!... its just a image labeler for manually sorting images to different categories and creating datasets from scratch🤫
