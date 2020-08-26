@@ -9,10 +9,10 @@
 
 psst!... its just a image labeler for manually sorting images to different categories and creating datasets from scratch🤫
 
-*inspired by @karpathy 's Imagenet story
+*inspired by [@karpathy](https://github.com/karpathy)'s Imagenet story*
 
 ### usage:
-python modeldotpredict.py --directory <path> --labels <label1> <label2> <labeln> --extensions <.jpg> <.png>
+<code> python modeldotpredict.py --directory <path> --labels <label1> <label2> <labeln> --extensions <.jpg> <.png> <code>
  
 ### Requirements:
 Pillow==7.2.0 and python❤️️ 
