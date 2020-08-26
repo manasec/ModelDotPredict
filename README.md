@@ -1,5 +1,5 @@
 # ModelDotPredict
-- a pure state-of-the-art intelligent system
+- a pure state-of-the-art intelligent classifier system
 - fully trained , just pass your datasets and boom
 - human-level accuray(better than your latest papers)
 - no bs
