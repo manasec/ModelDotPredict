@@ -13,6 +13,6 @@ psst!... its just a image labeler for manually sorting images to different categ
 
 ### usage:
 <code> python modeldotpredict.py --directory <path> --labels <label1> <label2> <labeln> --extensions <.jpg> <.png> <code>
- 
+
 ### Requirements:
 Pillow==7.2.0 and python❤️️ 
