@@ -1,6 +1,6 @@
 # ModelDotPredict
 - a pure state-of-the-art intelligent classifier system
-- fully trained , just pass your datasets and boom
+- fully trained , just pass your image datasets -->model.predict and boom
 - human-level accuray(better than your latest papers)
 - no bs
 
