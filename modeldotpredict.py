@@ -1,4 +1,4 @@
-"""@manasec - inspired by @karpathy
+"""
  USAGE:
  python modeldotpredict.py --directory <path> --labels <label1> <label2> <labeln> --extensions <.jpg> <.png>
 """
@@ -97,7 +97,7 @@ class Model:
      
         root, file_name = os.path.split(input_path)
         output_path = os.path.join(root, label, file_name)
-        print( "%s --> %s"%(file_name, label))
+        print( "%s ------> %s"%(file_name, label))
         copyfile(input_path, output_path)
 
 
