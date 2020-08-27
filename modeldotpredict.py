@@ -41,7 +41,7 @@ class Model:
         for key in range(self.labelcount):
             parent.bind(str(key+1), self.pollfromkey)
 
-        progress_string = "%d/%d".format(self.index, self.totalpaths)
+        progress_string = "%d/%d"%(self.index, self.totalpaths)
         self.progress_label = tk.Label(frame, text=progress_string, width=10)
 
      
@@ -58,7 +58,7 @@ class Model:
     def next_img(self):
      
         self.index += 1
-        progress_string = "%d/%d".format(self.index, self.totalpaths)
+        progress_string = "%d/%d"%(self.index, self.totalpaths)
         self.progress_label.configure(text=progress_string)
 
         if self.index < self.totalpaths:
@@ -97,7 +97,7 @@ class Model:
      
         root, file_name = os.path.split(input_path)
         output_path = os.path.join(root, label, file_name)
-        print( "%s --> %s".format(file_name, label))
+        print( "%s --> %s"%(file_name, label))
         copyfile(input_path, output_path)
 
 
